@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Weather Forecast</h1>
+
+    <div class="search-box">
+        <input type="text" id="city" placeholder="Enter city name">
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div id="weather-card" class="hidden">
+        <h2 id="cityName"></h2>
+        <h1 id="temperature"></h1>
+        <p id="condition"></p>
+
+        <div class="details">
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+
+        <small id="updated"></small>
+    </div>
+
+    <p id="error" class="error"></p>
+</div>
+
+<script src="/static/js/script.js"></script>
+</body>
+</html>
