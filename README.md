@@ -1,4 +1,4 @@
-# Weather Forecast Web App
+# Weather Forecast Web App - https://weather-forecast-web-app-five.vercel.app/
 
 A Flask-based weather application using OpenWeather API with:
 - Secure backend API handling
@@ -16,6 +16,3 @@ A Flask-based weather application using OpenWeather API with:
 ```bash
 pip install -r requirements.txt
 python app.py
-
-
-
