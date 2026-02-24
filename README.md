@@ -14,11 +14,10 @@ A Flask-based weather application using OpenWeather API with:
 
 Project URL - https://weather-forecast-web-app-five.vercel.app/
 
-https://roadmap.sh/projects/weather-api-wrapper-service
-
 ## Setup
 ```bash
 pip install -r requirements.txt
 python app.py
+
 
 
